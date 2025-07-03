@@ -1,5 +1,5 @@
 import './sidebar.css';
-import React, { useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import ReactPlayer from 'react-player'
 
 /*function setActiveAlbum()
@@ -16,6 +16,11 @@ function setActiveAbout()
 
 export function Sidebar() {
     const [activeTab, setActiveTab] = useState('about'); //useState
+
+    useEffect(() => {
+        console.log(`Состояние страницы изменилось на ${activeTab}`);
+    }, [activeTab]);
+
     return (
         <div className="container">
         <aside className="sidebar">
