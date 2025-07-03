@@ -1,0 +1,72 @@
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    padding: 1rem;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+
+.sidebar-link:hover {
+    background-color: #1b204f;
+}
+
+.container
+{
+    display: flex;
+}
+
+.container
+{
+    color: white;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.about
+{
+    justify-content: center;
+}
+
+.content
+{
+    font-family: sans-serif;
+}
+
+.about p
+{
+    text-wrap: wrap;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.albums
+{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.player
+{
+    margin: 30px;
+}
